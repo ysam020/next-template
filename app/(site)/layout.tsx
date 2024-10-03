@@ -15,7 +15,23 @@ export default function RootLayout({}: { children: React.ReactNode }) {
             justifyContent: "center",
           }}
         >
-          <img src="/images/logo/logo-paymaster.png" alt="" />
+          <div>
+            <img src="/images/logo/logo-paymaster.png" alt="" />
+
+            <p
+              style={{
+                display: "block",
+                width: "100%",
+                color: "#fff",
+                fontSize: "16px",
+                textAlign: "center",
+                marginTop: "10px",
+                
+              }}
+            >
+              Unlock Possibilities Ignite Solutions
+            </p>
+          </div>
         </div>
       </body>
     </html>
