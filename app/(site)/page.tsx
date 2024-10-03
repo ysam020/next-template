@@ -12,17 +12,17 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
+import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
-  description: "This is Home for Solid Pro",
-  // other metadata
+  title: "Paymaster Management Solutions",
 };
 
 export default function Home() {
   return (
     <main>
-      <Hero />
+      {/* <h1>test</h1> */}
+      {/* <Hero />
       <Brands />
       <Feature />
       <About />
@@ -34,7 +34,7 @@ export default function Home() {
       <Testimonial />
       <Pricing />
       <Contact />
-      <Blog />
+      <Blog /> */}
     </main>
   );
 }

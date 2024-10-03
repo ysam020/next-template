@@ -46,7 +46,7 @@ const Header = () => {
               className="hidden w-full dark:block"
             />
             <Image
-              src="/images/logo/logo-light.svg"
+              src="/images/logo/logo-paymaster.png"
               alt="logo"
               width={119.03}
               height={30}
